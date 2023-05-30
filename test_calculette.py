@@ -8,10 +8,10 @@ def cal():
 
 def test_add(cal):
 	cal.add(1,665)
-	assert cal.res == 667
+	assert cal.res == 6888
 
 def test_div(cal):
-	cal.divide(1,4)
+	cal.divide(5,4)
 	assert cal.res == 0.25
 
 def test_raise(cal):
