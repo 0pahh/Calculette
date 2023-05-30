@@ -18,6 +18,10 @@ def test_div(cal):
 	cal.add(1,1)
 	assert cal.res == 3
 
+def test_div(cal):
+	cal.add(1,4)
+	assert cal.res == 0.33
+
 def test_raise(cal):
 	with pytest.raises(Error):
 		cal.divide(1,0)
