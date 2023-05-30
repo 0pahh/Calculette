@@ -7,7 +7,7 @@ def cal():
 
 
 def test_add(cal):
-	cal.add(1,666)
+	cal.add(1,665)
 	assert cal.res == 667
 
 def test_div(cal):
