@@ -16,11 +16,11 @@ def test_div(cal):
 
 def test_div(cal):
 	cal.add(1,1)
-	assert cal.res == 3
+	assert cal.res == 2
 
 def test_div(cal):
 	cal.add(1,4)
-	assert cal.res == 0.33
+	assert cal.res == 0.25
 
 def test_raise(cal):
 	with pytest.raises(Error):
