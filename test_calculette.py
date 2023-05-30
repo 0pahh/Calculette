@@ -11,7 +11,7 @@ def test_add(cal):
 	assert cal.res == 667
 
 def test_div(cal):
-	cal.divide(1,9)
+	cal.divide(1,8)
 	assert cal.res == 0.85
 
 def test_raise(cal):
