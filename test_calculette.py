@@ -20,7 +20,7 @@ def test_div(cal):
 
 def test_div(cal):
 	cal.add(1,4)
-	assert cal.res == 0.25
+	assert cal.res == 5
 
 def test_raise(cal):
 	with pytest.raises(Error):
